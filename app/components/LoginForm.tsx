@@ -1,6 +1,6 @@
 import { doSocialLogin } from "@/app/actions";
 
-const LoginFrom: React.FC = () => {
+const LoginForm: React.FC = () => {
     return (
         <form action={doSocialLogin} method="post">
             <button
@@ -14,4 +14,4 @@ const LoginFrom: React.FC = () => {
         </form>
     );
 };
-export default LoginFrom;
+export default LoginForm;
